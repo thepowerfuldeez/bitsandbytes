@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 64.0.0"]
+requires = ["setuptools >= 63.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -45,7 +45,7 @@ dependencies = [
 [project.optional-dependencies]
 benchmark = ["pandas", "matplotlib"]
 docs = ["hf-doc-builder", "black"]
-xdev = [
+dev = [
     "bitsandbytes[test]",
     "build",
     "ruff",
