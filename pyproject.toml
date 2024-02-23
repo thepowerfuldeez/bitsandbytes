@@ -45,7 +45,7 @@ dependencies = [
 [project.optional-dependencies]
 benchmark = ["pandas", "matplotlib"]
 docs = ["hf-doc-builder"]
-dev = [
+xdev = [
     "bitsandbytes[test]",
     "build",
     "ruff",
