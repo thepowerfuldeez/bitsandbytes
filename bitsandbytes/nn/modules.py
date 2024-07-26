@@ -283,7 +283,7 @@ class Params4bit(torch.nn.Parameter):
         self.quant_type = self.quant_state.quant_type
         self.bnb_quantized = True
 
-        self.quant_storage = torch.bfloat16
+        self.quant_storage = data.dtype
 
         return self
 
