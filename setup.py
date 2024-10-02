@@ -25,7 +25,7 @@ class BinaryDistribution(Distribution):
 
 setup(
     name="bitsandbytes",
-    version="0.43.3",
+    version="0.44.2.dev",
     author="Tim Dettmers",
     author_email="dettmers@cs.washington.edu",
     description="k-bit optimizers and matrix multiplication routines.",
@@ -37,7 +37,7 @@ setup(
     install_requires=["torch", "numpy"],
     extras_require={
         "benchmark": ["pandas", "matplotlib"],
-        "test": ["scipy"],
+        "test": ["scipy", "lion_pytorch"],
     },
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
