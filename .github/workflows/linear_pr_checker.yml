@@ -5,12 +5,12 @@ name: Linear PR Checker
 on:
   pull_request:
     types:
-      - opened
-      - reopened
-      - edited
-      - synchronize
+    - opened
+    - reopened
+    - edited
+    - synchronize
     branches:
-      - main
+    - main
 defaults:
   run:
     shell: bash
